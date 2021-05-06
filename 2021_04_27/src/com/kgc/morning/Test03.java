@@ -19,6 +19,7 @@ public class Test03 {
 		for (int i = 0; i < total.length; i++) {
 			System.out.println("*****第" + (i + 1) + "个班级的总成绩为：" + total[i] + " *****");
 		}
+		input.close();
 	}
 
 }
